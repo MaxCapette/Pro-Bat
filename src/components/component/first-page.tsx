@@ -266,7 +266,7 @@ export function FirstPage() {
   )
 }
 
-function BoltIcon(props) {
+function BoltIcon(props: any) {
   return (
     <svg
       {...props}
@@ -287,7 +287,7 @@ function BoltIcon(props) {
 }
 
 
-function HomeIcon(props) {
+function HomeIcon(props: any) {
   return (
     <svg
       {...props}
@@ -308,7 +308,7 @@ function HomeIcon(props) {
 }
 
 
-function MenuIcon(props) {
+function MenuIcon(props: any) {
   return (
     <svg
       {...props}
@@ -330,7 +330,7 @@ function MenuIcon(props) {
 }
 
 
-function RefreshCwIcon(props) {
+function RefreshCwIcon(props: any) {
   return (
     <svg
       {...props}
@@ -353,7 +353,7 @@ function RefreshCwIcon(props) {
 }
 
 
-function WrenchIcon(props) {
+function WrenchIcon(props: any) {
   return (
     <svg
       {...props}
