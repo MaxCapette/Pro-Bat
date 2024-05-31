@@ -256,10 +256,11 @@ export function FirstPage() {
         </section>
       </main>
       <footer className="bg-gray-100 text-gray-900 py-8 dark:bg-gray-800 dark:text-white">
-        <div className=" mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center justify-between">
-        
-         
+        <div className=" mx-auto px-4 md:px-6 flex flex-col md:flex-column items-center justify-between">
           <p className="text-gray-600 dark:text-gray-400 mt-4 md:mt-0">© 2024 PRO BAT. Tous droits réservés.</p>
+          <p className="text-gray-600 dark:text-gray-400 mt-4 md:mt-0">206 ALLEE DE MONTFERMEIL</p>
+          <p className="text-gray-600 dark:text-gray-400 mt-4 md:mt-0">93220 GAGNY</p>
+          <p className="text-gray-600 dark:text-gray-400 mt-4 md:mt-0">TEL: 01 43 81 00 00</p>
         </div>
       </footer>
     </>
