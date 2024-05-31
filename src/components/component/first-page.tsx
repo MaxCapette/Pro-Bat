@@ -260,7 +260,6 @@ export function FirstPage() {
           <p className="text-gray-600 dark:text-gray-400 mt-4 md:mt-0">© 2024 PRO BAT. Tous droits réservés.</p>
           <p className="text-gray-600 dark:text-gray-400 mt-4 md:mt-0">206 ALLEE DE MONTFERMEIL</p>
           <p className="text-gray-600 dark:text-gray-400 mt-4 md:mt-0">93220 GAGNY</p>
-          <p className="text-gray-600 dark:text-gray-400 mt-4 md:mt-0">contact@divine-pay-systems.fr</p>
           <p className="text-gray-600 dark:text-gray-400 mt-4 md:mt-0">TEL: 01 85 10 03 72</p>
         </div>
       </footer>
