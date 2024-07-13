@@ -7,9 +7,7 @@ import {
   Sheet,
   SheetClose,
 } from "@/components/ui/sheet";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import img from "next/image";
+
 import ContactPage from "../contact/contact";
 
 export function FirstPage() {
@@ -157,7 +155,7 @@ export function FirstPage() {
                 pour vous accompagner.
               </p>
               <div className="grid grid-cols-2 gap-4">
-                <div className="bg-gray-200 rounded-lg p-4 flex flex-col items-start gap-2">
+                <div className="bg-gray-200  rounded-lg p-4 flex flex-col items-start gap-2">
                   <HomeIcon className="h-8 w-8 text-gray-900 " />
                   <h3 className="text-xl font-semibold">Construction</h3>
                   <p className="text-gray-600 ">
@@ -165,7 +163,7 @@ export function FirstPage() {
                     vos besoins.
                   </p>
                 </div>
-                <div className="bg-gray-200 rounded-lg p-4 flex flex-col items-start gap-2">
+                <div className="bg-gray-200  rounded-lg p-4 flex flex-col items-start gap-2">
                   <RefreshCwIcon className="h-8 w-8 text-gray-900 " />
                   <h3 className="text-xl font-semibold">Rénovation</h3>
                   <p className="text-gray-600 ">
@@ -173,7 +171,7 @@ export function FirstPage() {
                     plus fonctionnels et agréables.
                   </p>
                 </div>
-                <div className="bg-gray-200 rounded-lg p-4 flex flex-col items-start gap-2">
+                <div className="bg-gray-200  rounded-lg p-4 flex flex-col items-start gap-2">
                   <WrenchIcon className="h-8 w-8 text-gray-900 " />
                   <h3 className="text-xl font-semibold">Aménagement</h3>
                   <p className="text-gray-600 ">
@@ -181,7 +179,7 @@ export function FirstPage() {
                     optimiser leur utilisation.
                   </p>
                 </div>
-                <div className="bg-gray-200 rounded-lg p-4 flex flex-col items-start gap-2">
+                <div className="bg-gray-200  rounded-lg p-4 flex flex-col items-start gap-2">
                   <BoltIcon className="h-8 w-8 text-gray-900 " />
                   <h3 className="text-xl font-semibold">Réparation</h3>
                   <p className="text-gray-600 ">
@@ -271,7 +269,7 @@ export function FirstPage() {
           </div>
         </section>
         <section
-          className=" py-12 md:py-20 lg:py-24 space-y-4  "
+          className=" py-12 md:py-20 lg:py-24 space-y-4 "
           id="contact"
         >
           <ContactPage />
