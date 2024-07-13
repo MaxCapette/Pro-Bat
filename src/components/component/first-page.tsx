@@ -15,39 +15,39 @@ import ContactPage from "../contact/contact";
 export function FirstPage() {
   return (
     <>
-      <header className="bg-gray-100 text-gray-900 py-6 shadow dark:bg-gray-800 dark:text-white">
+      <header className="bg-gray-100 text-gray-900 py-6 shadow  ">
         <div className="container mx-auto px-4 md:px-6 flex items-center justify-between">
           <Link className="flex items-center gap-2" href="#">
-            <HomeIcon className="h-6 w-6 text-gray-900 dark:text-gray-50" />
+            <HomeIcon className="h-6 w-6 text-gray-900 " />
             <span className="text-xl font-bold">PRO BAT</span>
           </Link>
           <nav className="hidden md:flex items-center gap-6">
             <Link
-              className="font-medium hover:text-gray-900 dark:hover:text-gray-50"
+              className="font-medium hover:text-gray-900 "
               href="#"
             >
               Accueil
             </Link>
             <Link
-              className="font-medium hover:text-gray-900 dark:hover:text-gray-50"
+              className="font-medium hover:text-gray-900 "
               href="#services"
             >
               Services
             </Link>
             <Link
-              className="font-medium hover:text-gray-900 dark:hover:text-gray-50"
+              className="font-medium hover:text-gray-900 "
               href="#services"
             >
               Projets
             </Link>
             <Link
-              className="font-medium hover:text-gray-900 dark:hover:text-gray-50"
+              className="font-medium hover:text-gray-900 "
               href="#about"
             >
               À propos
             </Link>
             <Link
-              className="font-medium hover:text-gray-900 dark:hover:text-gray-50"
+              className="font-medium hover:text-gray-900 "
               href="#contact"
             >
               Contact
@@ -67,13 +67,13 @@ export function FirstPage() {
               </Button>
             </SheetTrigger>
             <SheetContent
-              className="w-full max-w-xs bg-gray-100 dark:bg-gray-800 p-6"
+              className="w-full max-w-xs bg-gray-100  p-6"
               side="right"
             >
               <div className="flex flex-col gap-6">
                 <SheetClose asChild>
                   <Link
-                    className="font-medium hover:text-gray-900 dark:hover:text-gray-50"
+                    className="font-medium hover:text-gray-900 "
                     href="#"
                   >
                     Accueil
@@ -81,7 +81,7 @@ export function FirstPage() {
                 </SheetClose>
                 <SheetClose asChild>
                   <Link
-                    className="font-medium hover:text-gray-900 dark:hover:text-gray-50"
+                    className="font-medium hover:text-gray-900 "
                     href="#services"
                   >
                     Services
@@ -89,7 +89,7 @@ export function FirstPage() {
                 </SheetClose>
                 <SheetClose asChild>
                   <Link
-                    className="font-medium hover:text-gray-900 dark:hover:text-gray-50"
+                    className="font-medium hover:text-gray-900 "
                     href="#services"
                   >
                     Projets
@@ -97,7 +97,7 @@ export function FirstPage() {
                 </SheetClose>
                 <SheetClose asChild>
                   <Link
-                    className="font-medium hover:text-gray-900 dark:hover:text-gray-50"
+                    className="font-medium hover:text-gray-900 "
                     href="#about"
                   >
                     À propos
@@ -105,7 +105,7 @@ export function FirstPage() {
                 </SheetClose>
                 <SheetClose asChild>
                   <Link
-                    className="font-medium hover:text-gray-900 dark:hover:text-gray-50"
+                    className="font-medium hover:text-gray-900 "
                     href="#contact"
                   >
                     Contact
@@ -124,13 +124,13 @@ export function FirstPage() {
         </div>
       </header>
       <main>
-        <section className="bg-gray-100 text-gray-900 py-12 md:py-20 lg:py-28 dark:bg-gray-800 dark:text-white topo">
+        <section className="bg-gray-100 text-gray-900 py-12 md:py-20 lg:py-28   topo">
           <div className="container mx-auto px-4 md:px-6 grid md:grid-cols-2 gap-8 items-center">
             <div className="space-y-4">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold">
                 Construire et rénover avec PRO BAT
               </h1>
-              <p className="text-gray-600 dark:text-gray-400 text-lg">
+              <p className="text-gray-600  text-lg">
                 Depuis plus de 20 ans, PRO BAT accompagne ses clients dans la
                 réalisation de leurs projets de construction et de rénovation.
               </p>
@@ -145,46 +145,46 @@ export function FirstPage() {
           </div>
         </section>
         <section
-          className="bg-gray-100 text-gray-900 py-12 md:py-20 lg:py-28 dark:bg-gray-800 dark:text-white"
+          className="bg-gray-100 text-gray-900 py-12 md:py-20 lg:py-28  "
           id="services"
         >
           <div className="container mx-auto px-4 md:px-6 grid md:grid-cols-2 gap-8">
             <div className="space-y-4">
               <h2 className="text-3xl md:text-4xl font-bold">Nos services</h2>
-              <p className="text-gray-600 dark:text-gray-400 text-lg">
+              <p className="text-gray-600  text-lg">
                 Que vous ayez besoin de construire une nouvelle maison ou de
                 rénover votre espace de vie, notre équipe d&apos;experts est là
                 pour vous accompagner.
               </p>
               <div className="grid grid-cols-2 gap-4">
-                <div className="bg-gray-200 dark:bg-gray-700 rounded-lg p-4 flex flex-col items-start gap-2">
-                  <HomeIcon className="h-8 w-8 text-gray-900 dark:text-gray-50" />
+                <div className="bg-gray-200 rounded-lg p-4 flex flex-col items-start gap-2">
+                  <HomeIcon className="h-8 w-8 text-gray-900 " />
                   <h3 className="text-xl font-semibold">Construction</h3>
-                  <p className="text-gray-600 dark:text-gray-400">
+                  <p className="text-gray-600 ">
                     Nous construisons des bâtiments sur mesure pour répondre à
                     vos besoins.
                   </p>
                 </div>
-                <div className="bg-gray-200 dark:bg-gray-700 rounded-lg p-4 flex flex-col items-start gap-2">
-                  <RefreshCwIcon className="h-8 w-8 text-gray-900 dark:text-gray-50" />
+                <div className="bg-gray-200 rounded-lg p-4 flex flex-col items-start gap-2">
+                  <RefreshCwIcon className="h-8 w-8 text-gray-900 " />
                   <h3 className="text-xl font-semibold">Rénovation</h3>
-                  <p className="text-gray-600 dark:text-gray-400">
+                  <p className="text-gray-600 ">
                     Nous rénovons et modernisons vos espaces pour les rendre
                     plus fonctionnels et agréables.
                   </p>
                 </div>
-                <div className="bg-gray-200 dark:bg-gray-700 rounded-lg p-4 flex flex-col items-start gap-2">
-                  <WrenchIcon className="h-8 w-8 text-gray-900 dark:text-gray-50" />
+                <div className="bg-gray-200 rounded-lg p-4 flex flex-col items-start gap-2">
+                  <WrenchIcon className="h-8 w-8 text-gray-900 " />
                   <h3 className="text-xl font-semibold">Aménagement</h3>
-                  <p className="text-gray-600 dark:text-gray-400">
+                  <p className="text-gray-600 ">
                     Nous aménageons vos espaces intérieurs et extérieurs pour
                     optimiser leur utilisation.
                   </p>
                 </div>
-                <div className="bg-gray-200 dark:bg-gray-700 rounded-lg p-4 flex flex-col items-start gap-2">
-                  <BoltIcon className="h-8 w-8 text-gray-900 dark:text-gray-50" />
+                <div className="bg-gray-200 rounded-lg p-4 flex flex-col items-start gap-2">
+                  <BoltIcon className="h-8 w-8 text-gray-900 " />
                   <h3 className="text-xl font-semibold">Réparation</h3>
-                  <p className="text-gray-600 dark:text-gray-400">
+                  <p className="text-gray-600 ">
                     Nous intervenons rapidement pour réparer tous types de
                     dommages à votre bâtiment.
                   </p>
@@ -193,7 +193,7 @@ export function FirstPage() {
             </div>
             <div className="space-y-4">
               <h2 className="text-3xl md:text-4xl font-bold">Nos projets</h2>
-              <p className="text-gray-600 dark:text-gray-400 text-lg">
+              <p className="text-gray-600  text-lg">
                 Découvrez quelques-uns de nos projets les plus récents et
                 inspirants.
               </p>
@@ -239,7 +239,7 @@ export function FirstPage() {
           </div>
         </section>
         <section
-          className="bg-gray-100 text-gray-900 py-12 md:py-20 lg:py-28 dark:bg-gray-800 dark:text-white"
+          className="bg-gray-100 text-gray-900 py-12 md:py-20 lg:py-28  "
           id="about"
         >
           <div className="container mx-auto px-4 md:px-6 grid md:grid-cols-2 gap-8 items-center">
@@ -247,13 +247,13 @@ export function FirstPage() {
               <h2 className="text-3xl md:text-4xl font-bold">
                 À propos de PRO BAT
               </h2>
-              <p className="text-gray-600 dark:text-gray-400 text-lg">
+              <p className="text-gray-600  text-lg">
                 Depuis plus de 20 ans, PRO BAT est un acteur majeur dans le
                 domaine de la construction et de la rénovation. Nous mettons
                 notre expertise et notre savoir-faire au service de nos clients
                 pour réaliser leurs projets dans les meilleures conditions.
               </p>
-              <p className="text-gray-600 dark:text-gray-400 text-lg">
+              <p className="text-gray-600  text-lg">
                 Notre équipe de professionnels qualifiés s&apos;engage à fournir
                 un travail de qualité, dans le respect des délais et du budget.
                 Nous utilisons les dernières technologies et techniques de
@@ -271,27 +271,27 @@ export function FirstPage() {
           </div>
         </section>
         <section
-          className="bg-gray-800 py-12 md:py-20 lg:py-24 space-y-4  dark:text-white"
+          className=" py-12 md:py-20 lg:py-24 space-y-4  "
           id="contact"
         >
           <ContactPage />
         </section>
       </main>
-      <footer className="bg-gray-100 text-gray-900 py-8 dark:bg-gray-800 dark:text-white">
+      <footer className="bg-gray-100 text-gray-900 py-8  ">
         <div className=" mx-auto px-4 md:px-6 flex flex-col md:flex-column items-center justify-between">
-          <p className="text-gray-600 dark:text-gray-400 mt-4 md:mt-0">
+          <p className="text-gray-600  mt-4 md:mt-0">
             © 2024 PRO BAT. Tous droits réservés.
           </p>
-          <p className="text-gray-600 dark:text-gray-400 mt-4 md:mt-0">
+          <p className="text-gray-600  mt-4 md:mt-0">
             206 ALLEE DE MONTFERMEIL
           </p>
-          <p className="text-gray-600 dark:text-gray-400 mt-4 md:mt-0">
+          <p className="text-gray-600  mt-4 md:mt-0">
             93220 GAGNY
           </p>
-          <p className="text-gray-600 dark:text-gray-400 mt-4 md:mt-0">
+          <p className="text-gray-600  mt-4 md:mt-0">
             TEL: contact@probat93.fr
           </p>
-          <p className="text-gray-600 dark:text-gray-400 mt-4 md:mt-0">
+          <p className="text-gray-600  mt-4 md:mt-0">
             TEL: 01 85 10 03 72
           </p>
         </div>
