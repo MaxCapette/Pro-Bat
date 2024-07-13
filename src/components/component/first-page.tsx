@@ -269,7 +269,7 @@ export function FirstPage() {
           </div>
         </section>
         <section
-          className=" py-12 md:py-20 lg:py-24 space-y-4 "
+          className=" py-12 md:py-20 lg:py-24 space-y-4 bg-gray-100"
           id="contact"
         >
           <ContactPage />
